@@ -1,0 +1,103 @@
+html {
+    background: rgb(241, 241, 241);
+    padding: 20px 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    row-gap: 20px;
+}
+
+.titleKeyboard {
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana;
+    color: rgb(84, 97, 122);
+}
+
+.fieldText {
+    width: 760px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.bodyKeyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 760px;
+    max-height: 300px;
+    padding: 0px 5px 5px 0px;
+    border: 2px;
+    border-color: rgb(97, 95, 90);
+    border-style: solid;
+    border-radius: 5px;
+    font-family: Verdana;
+    color: aliceblue;
+}
+
+.keyboardRow {
+    width: 760px;
+    height: 5px;
+}
+
+.keyboardKey {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: rgb(97, 95, 90);
+    border: 2px;
+    border-color: rgb(97, 95, 90);
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.Tab,
+.Backspace {
+    width: 60px
+}
+
+.CapsLock,
+.ShiftLeft,
+.Enter,
+.ShiftRight {
+    width: 85px;
+    background: rgb(84, 97, 122);
+}
+
+.Space {
+    width: 350px;
+    background: rgb(84, 97, 122);
+}
+
+.Tab,
+.ControlLeft,
+.MetaLeft,
+.AltLeft,
+.AltRight,
+.ArrowLeft,
+.ArrowDown,
+.ArrowRight,
+.ArrowUp,
+.ControlRight,
+.Delete,
+.Backspace {
+    background: rgb(84, 97, 122);
+}
+
+.active {
+    background: rgb(73, 124, 219);
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.Backspace {
+    font-size: 10px;
+}
